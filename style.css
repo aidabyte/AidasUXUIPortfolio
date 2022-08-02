@@ -17,12 +17,12 @@ body {
   h2 {
     font-family: "Mulish", sans-serif;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
   }
   
   #logo {
-    width: 60px;
+    width: 90px;
     height: 60px;
     padding-left: 30px;
   }
@@ -37,8 +37,8 @@ body {
   p {
     font-size: 18px;
     overflow: hidden;
-    inline-size: 250px;
-    overflow-wrap: break-word;
+    inline-size: 350px; 
+    overflow-wrap: break-word; 
   }
   
   a, a:hover, a:visited, a:active {
@@ -67,8 +67,9 @@ body {
   #latestworkphoto {
     width: 350px;
     height: 150px;
-    padding-left: 120px;
-    padding-bottom: 50px;;
+    margin-top:100px;
+    
+    
   }
   #rootedphoto {
     width: 700px;
@@ -119,10 +120,13 @@ body {
     padding: 10px;
     display: inline-block;
     margin: 20px;
+    color:white;
+    font-style: bold;
   }
   
   hr {
     border: 1px solid black;
+
   }
   #space {
     height: 10px;
@@ -134,6 +138,10 @@ body {
     padding-bottom: 50px;
     padding-left: 550px;
     font-size: 50px;
+  }
+
+  #font{
+    font-size: 80px;;
   }
 
   /* My About Me coded using CSS flexbox */
@@ -185,6 +193,7 @@ body {
   }
  
   .typewriter {
+    padding-top:50px;
     color: black;
     font-family: "Mulish", sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -204,21 +213,29 @@ body {
   /* Contact Tab */
   
   #linkedinIcon {
-    grid-area: linkedinIcon;
     width: 80px;
+    margin-left:70px;
+    
   }
   #gmailIcon {
-    grid-area: gmailnIcon;
     width: 70px;
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 15px;
+   
   }
-  .container {
+  .containerr {
     display: flex;
     justify-content: center;
     flex-direction: row;
   justify-content: center;
+  }
+  .container-fluid{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  justify-content: center;
+
   }
   .footerContactPage {
     margin-top: 200px;
@@ -266,6 +283,7 @@ body {
     text-align: left;
     font-family: "Mulish", sans-serif;
   }
+ 
   
   .projectBtn{
     width: 120px;
@@ -279,8 +297,18 @@ body {
     background-color:#F45C43 ;
     font-family: "Mulish", sans-serif;
   }
+  .Btn{
+    margin-left:50px;
+
+  }
   .Btn2{
     background-color:#F2B20E;
+   
+  }
+  .Btn22{
+ margin-left:50px;
+ background-color:#F2B20E;
+
   }
   
   .number {
@@ -295,36 +323,18 @@ body {
     color:#F2B20E;
     padding-top: 80px;
   }
-
-  .gridd-container {
-    display: grid;
-    padding: 10px;
-    grid-template-columns:auto auto;
-  }
-  .gridd-item {
-    background-color: rgb(255, 248, 238);
-    padding-left: 30px;
-    font-size: 50px;
-    text-align: left;
-    height: 350px;
-    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
-  }
-  .wordss{
-    font-family: "Mulish", sans-serif;
-    font-size: 20px;
-    padding-top: 0;
-    text-align: left;
-    padding-left: 0px;
-  }
   
   
   footer {
     text-align: center;
     margin-top: 140px;
+    background-color: #999b13;
   }
   #lineFooter {
     padding-bottom: 30px;
     font-family: "Mulish", sans-serif;
+    color: white;
+    font-style: bold;
   }
 
   
@@ -332,8 +342,17 @@ body {
   
   
   /* Media Queries */
+
+
   
   @media only screen and (max-width: 768px) {
+
+    p {
+        font-size: 15px;
+        overflow: hidden;
+        inline-size: 150px; 
+        overflow-wrap: break-word; 
+      }
     li {
       display: flexbox;
       float: right;
@@ -345,32 +364,36 @@ body {
       font-style: normal;
       text-decoration:none;
     }
-    p {
-      font-size: 18px;
-      overflow: hidden;
-      inline-size: 150px;
-    }
   
-    #nonprofitphoto {
-      width: 200px;
-      height: 200px;
-    }
-  
-    #rootedphoto {
-      width: 400px;
-      height: 200px;
+    
+     #rootedphoto {
+      width: 450px;
+      height: 220px;
       border-color: black;
-      padding-right: 180px;
-      padding-bottom: 150px;
+      
+    }  
+    #nonphoto{
+        width: 450px;
+      height: 220px;
+      border-color: black;
+      margin-left: 50px;;
+
     }
-    #rootedText {
-      padding-left: 850px;
-      font-family: "Chicle", "cursive", "Open Sans", sans-serif;
-      padding-top: 50px;
-      font-size: 50px;
-      float: right;
-      padding-right: 50px;
-    }
+    
+    #rootedHeading {
+        text-align: left;
+        font-family: "Mulish", sans-serif;
+        font-size: 26px;;
+      }
+
+      #carHeading{
+        text-align: left;
+        font-family: "Mulish", sans-serif;
+        font-size: 26px;
+        margin-top:-20px
+
+      }
+   
    
     #nonprofitText {
       font-family: "Chicle", "cursive", "Open Sans", sans-serif;
@@ -390,9 +413,9 @@ body {
     #latestworkphoto {
       width: 350px;
       height: 150px;
-      padding-left: 80px;
-      position: absolute;
-      padding-top: 60px;;
+      margin-top: 100px;
+      padding-left:30px;
+     
     }
   
     #skillsText {
@@ -439,12 +462,73 @@ body {
       width: 500px;
       margin: 15px;
       padding: 10px;
-      padding-left: 10px;
+      padding-left: 10px; 
       text-align: center, justify;
     }
+    .text{
+        font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+        font-size: 50px;;
+        margin-left:50px;
+        margin-top: 0 !important;
+        
+      }
 
-    #clickResume{
-      padding-left: 40px;
-    }
+      #bigWords{
+        font-size: 50px !important;
+        height:250px;
+      }
+      .jumbotron{
+        height:250px;
+
+      }
+     
    
+  }
+
+
+
+
+
+
+
+
+  /* indexnew */
+
+  .jumbotron{
+    background-color: rgb(255, 248, 238);
+  }
+
+  #bigWords{
+    font-size: 80px;
+    height:450px;
+    word-break: 30;
+    text-align: center,justify;
+    max-width: 800px;
+    word-wrap: break-word;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .text{
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    font-size: 50px;;
+    margin-left:50px;
+    margin-top: 200px;
+    
+  }
+  .textt{
+    font-family: "Chicle", "cursive", "Open Sans", sans-serif;
+    font-size: 50px;;
+    margin-left:50px;
+    margin-top: 70px;
+
+  }
+  #smallText{
+    margin-left:50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .space{
+    padding-top:50px;
   }

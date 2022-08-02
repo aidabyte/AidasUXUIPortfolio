@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css"/>
 </head>
 <body>
+    <!-- Navbar begins -->
     <nav>
         <ul>
             <li><a href="./resume.html">Resume</a></li>
@@ -23,86 +25,101 @@
                 <img src="images/logoimg.png"  id="logo" alt="green and orange colors"> 
             </a>       
         </nav>
-
+        <!-- Navbar Ends -->
+        <!-- Line below navbar -->
         <hr>
         <div class="container"></div>
         <h2 class="typewriter"> Hi, I'm Aida Blinstrubyte</h2>
-    
-        <div id="message">
-        <h1>I’m a UX Designer that loves bringing
-            <br> little sparks of light to a users 
-            <br>experience</h1>
-    </div>
-        <section class="flex">
-            <img src="images/skills.png"id="skillsphoto"> 
-             <div id="skillsText" >I have a passion for user research, user flows, and prototyping 
-                creative solutions to solve complex problems.
-            </div>
-        </section>  
+
+
+        <div class="jumbotron">
+            <h1 id="bigWords">I’m a UX Designer that loves bringing
+            little sparks of light to a users 
+        
+            experience</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="images/latestwork.png" id="latestworkphoto">
+                <img src="images/rooted.png" id="rootedphoto">
+              </div>
+              <div class="col">
                
-<!-- Latest work heading begins -->
-        <section class="heroImg">
-            <img src="images/latestwork.png" id="latestworkphoto" alt="words latest work in white and a green oval behind it">
-        </section>
-<!-- Latest work heading ends -->
-<!-- Container begins for projects -->
-            <section class="gridd-container">
-                <img src="images/rooted.png" class="gridd-item" id="rootedphoto" alt="coral and blue text with a blue tree in the background">
-                <div class="gridd-item">Rooted
-                    <div class="grid-item wordss">Rooted is designed to connect 
-                        volunteer conscious 
-                        individuals with restaurants that contribute 
-                        to helping the community</div>
+                <div class="text">Rooted
+            </div>
+                <div id="smallText">Rooted is designed to connect 
+                    volunteer conscious 
+                    individuals with restaurants that contribute 
+                    to helping the community</div>
+                    <button class = "projectBtn Btn" >
+                        <a href="https://aidabyte.github.io/UX_UI_HW_20/">Learn More</a>
+            
+                    </a>
+              </div>
+              <div class="w-100"></div>
+              <div class="space"></div>
+              <div class="col">
+                <img src="images/nonprofit.png" class="" id="nonphoto">
+              </div>
+              <div class="col">
+                <div class="textt">Donate Car Cancer</div>
+                    <div id="smallText">A non-profit organization that collects and 
+                        appraises donated vehicles to help people with cancer.</div>
+                        <button  class = "projectBtn Btn22">Learn More
+                        </button>
                    </div>
-
-    <img src="images/nonprofit.png" class="gridd-item" id="rootedphoto" alt="coral and blue text with a blue tree in the background">
-    <div class="gridd-item">Donate Car Cancer
-        <div class="grid-item wordss">A non-profit organization that collects and 
-            appraises donated vehicles to help people with cancer.</div>
-       </div>
-    </section>
-
-      <!-- Footer Begins -->
-      <hr>
-      <div id="space">
-      </div>
-  </a>
-      <div id="workText">Let's Work Together 
-      </div>
-      <div class="iconGrid">
-          <div class="container">
-          <a href="https://www.linkedin.com/in/aidablinstrubyte/" target="_blank">
-              <img src="images/linkedIn.png"  id="linkedinIcon" > 
-          </a>  
-          <a href="" target="_blank">
-              <img src="images/gmail.png"  id="gmailIcon" > 
-          </a>  
-      </div>
-  </div> 
-
-
-
-
-
-
+                </section>
+              </div>
+            </div>
+          </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div id="space">
+        </div>
+    </a>
+        <div id="workText">Let's Work Together 
+        </div>
+        <div class="iconGrid">
+            <div class="container-fluid">
+            <a href="https://www.linkedin.com/in/aidablinstrubyte/" target="_blank">
+                <img src="images/linkedIn.png"  id="linkedinIcon" > 
+            </a>  
+            <a href="" target="_blank">
+                <img src="images/gmail.png"  id="gmailIcon" > 
+            </a>  
+        </div>
+    </div> 
   
-  <!-- Footer Begins -->
+  
+
+
+
+
+<!-- Footer Begins  -->
       <footer>
           
-          <ul class="lines">
-              <li class="lines">Resume</a></li>
-              <li class="lines"> Projects</a></li>
-              <li class="lines">About</a></li>
-             <li class="lines">Home</a></li>
-          </ul>
-          <div id="lineFooter">Aida Blinstrubyte ©  2022</div>
-     
-      </footer>
- 
+        <ul class="lines">
+            <li class="lines">Resume</a></li>
+            <li class="lines"> Projects</a></li>
+            <li class="lines">About</a></li>
+           <li class="lines">Home</a></li>
+        </ul>
+        <div id="lineFooter">Aida Blinstrubyte ©  2022</div>
+   
+    </footer> 
+
 
 
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 </html>
