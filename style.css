@@ -154,6 +154,18 @@ body {
     font-size: 80px;;
   }
 
+  .colorFooter{
+    background-color: #999b13;
+
+  }
+  .text-uppercase{
+    color: white;
+  }
+
+  .text-center{
+    color: white;
+  }
+
   /* My About Me coded using CSS flexbox */
   
   .flexbox-container {
